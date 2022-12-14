@@ -7,7 +7,7 @@ import JAVA from "../public/images/java.png";
 import JAVASCRIPT from "../public/images/javascript.png";
 import LARAVEL from "../public/images/laravel.png";
 import PHP from "../public/images/php.png";
-import POSTGRESQL from "../public/images/postgresql.png";
+import POSTGRESQL from "../public/images/postgreSQL.png";
 import REACT from "../public/images/react.png";
 import TAILWIND from "../public/images/tailwind.png";
 
