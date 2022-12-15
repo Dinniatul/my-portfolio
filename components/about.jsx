@@ -14,9 +14,9 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <Image src={Profile} alt="dinni" className=" object-scale-down h-98 w-70 max-w-sm rounded-full"></Image>
+            <Image src={Profile} alt="dinni" className="md:h-auto rounded-full"></Image>
           </div>
-          <div>
+          <div className="mt-20">
             <p className="max-w-sm mt-5">
               Saya adalah Mahasiswi Politeknik Negeri Padang , Jurusan Teknologi Informasi dengan Program Studi D3 Manajemen Informatika, semester 5. Fokus saya terhadap dunia IT yaitu tentang pengambangan Website atau sebagai Web
               Development.
