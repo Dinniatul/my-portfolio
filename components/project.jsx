@@ -22,8 +22,8 @@ const Project = () => {
   return (
     <div id="project" name="project" className=" w-full h-screen bg-[#0a192f] text-gray-300">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto  flex flex-col justify-center text-center ">
-        <div>
+      <div className="max-w-[1000px] max-h-lg  mx-auto  flex flex-col justify-center text-center ">
+        <div className="mt-10 max-mt-60">
           <p className="text-4xl font-bold inline border-b-4  border-pink-600 ">Project</p>
         </div>
         <Swiper
