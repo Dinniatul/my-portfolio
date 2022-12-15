@@ -9,10 +9,10 @@ export default function NavbarComponent() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link className="text-white" duration={500} href="/">
+        <Navbar.Link className="text-white scroll-smooth" duration={500} href="/">
           Home
         </Navbar.Link>
-        <Navbar.Link className="text-white" duration={500} href="#about">
+        <Navbar.Link className="text-white scroll-smooth" duration={500} href="#about">
           About
         </Navbar.Link>
         <Navbar.Link className="text-white" duration={500} href="#skills">

@@ -13,7 +13,7 @@ import TAILWIND from "../public/images/tailwind.png";
 
 const Skills = () => {
   return (
-    <div id="skills" name="skills" className=" w-full h-screen bg-[#0a192f] text-gray-300">
+    <div id="skills" name="skills" className=" w-full h-screen bg-[#0a192f]  text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center ">
         <div>
@@ -54,7 +54,7 @@ const Skills = () => {
             <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <Image className="w-20 mx-auto" src={PHP} alt="HTML icon" />
+            <Image className="w-25 mx-auto " src={PHP} alt="HTML icon" />
             <p className="my-4">PHP</p>
           </div>
         </div>

@@ -14,14 +14,16 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <Image src={Profile} alt="dinni" className="h-96 w-80 mx-40"></Image>
+            <Image src={Profile} alt="dinni" className=" object-scale-down h-98 w-90 max-w-sm rounded-full"></Image>
           </div>
           <div>
-            <p>
+            <p className="max-w-sm mt-5">
               Saya adalah Mahasiswi Politeknik Negeri Padang , Jurusan Teknologi Informasi dengan Program Studi D3 Manajemen Informatika, semester 5. Fokus saya terhadap dunia IT yaitu tentang pengambangan Website atau sebagai Web
               Development.
             </p>
-            <p className="mt-5">Saya sudah menekuni Pemograman Web selama 2 tahun hingga saat ini. Jujur adalah sifat yang saya utamakan , mampu bekerjasama tim , bertanggung jawab, berkomunikasi dan dapat membagi waktu dengan baik</p>
+            <p className="mt-5 max-w-sm">
+              Saya sudah menekuni Pemograman Web selama 2 tahun hingga saat ini. Jujur adalah sifat yang saya utamakan , mampu bekerjasama tim , bertanggung jawab, berkomunikasi dan dapat membagi waktu dengan baik
+            </p>
           </div>
         </div>
       </div>
