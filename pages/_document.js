@@ -12,6 +12,7 @@ export default function Document() {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></link>
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
       </Head>
+      <title>My Portfolio</title>
       <body>
         <Main></Main>
         <NextScript src="../path/to/flowbite/dist/flowbite.js"></NextScript>
